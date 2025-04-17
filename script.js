@@ -1,4 +1,4 @@
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = env.OPENAI_API_KEY;
 
 document.getElementById("userForm").addEventListener("submit", async function (e) {
     e.preventDefault();
